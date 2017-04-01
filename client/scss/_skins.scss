@@ -1,0 +1,25 @@
+$main-color: #232f3e;
+
+.green{
+  color: white;
+  background-color: #232f3e;
+}
+.prime{
+  color: #48a3c6;
+}
+.amazon-header-sprite{
+  background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-2x_optimized._CB281044790_.png');
+  background-position: -10px -51px;
+  background-size: 350px;
+}
+.amazon-header-size{
+  width: 97px;
+  height: 29px;
+  display: inline-block;
+}
+.header-background-color{
+  background-color: $main-color;
+}
+.nav-fixed-width{
+  display: inline-block;
+}
