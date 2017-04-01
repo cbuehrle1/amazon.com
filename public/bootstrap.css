@@ -6007,7 +6007,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .header-background-color {
   background-color: #232f3e; }
 
-.nav-fixed-width {
-  display: inline-block; }
+.inline-form-custom {
+  font-size: 12px !important; }
+
+.io-font-adjust {
+  font-size: 18px; }
+
+.main-input-size {
+  width: 570px; }
 
 /*# sourceMappingURL=bootstrap.css.map */

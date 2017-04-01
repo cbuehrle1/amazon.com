@@ -20,6 +20,12 @@ $main-color: #232f3e;
 .header-background-color{
   background-color: $main-color;
 }
-.nav-fixed-width{
-  display: inline-block;
+.inline-form-custom{
+  font-size: 12px !important;
+}
+.io-font-adjust{
+  font-size: 18px;
+}
+.main-input-size{
+  width: 570px;
 }
