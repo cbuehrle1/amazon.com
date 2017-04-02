@@ -96,7 +96,7 @@ $white:  #fff !default;
 $black:  #000 !default;
 $red:    #d9534f !default;
 $orange: #f0ad4e !default;
-$yellow: #ffd500 !default;
+$yellow: #febd69 !default;
 $green:  #5cb85c !default;
 $blue:   #0275d8 !default;
 $teal:   #5bc0de !default;
@@ -113,7 +113,7 @@ $gray-lightest:             #f7f7f9 !default;
 // Reassign color vars to semantic color scheme
 $brand-primary:             $blue !default;
 $brand-success:             $green !default;
-$brand-info:                $teal !default;
+$brand-info:                $yellow !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
 $brand-inverse:             $gray-dark !default;
@@ -359,8 +359,8 @@ $table-border-color:            $gray-lighter !default;
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-padding-x:                  1rem !default;
-$btn-padding-y:                  .5rem !default;
+$btn-padding-x:                  .25rem !default;
+$btn-padding-y:                  .25rem !default;
 $btn-line-height:                1.25 !default;
 $btn-font-weight:                $font-weight-normal !default;
 $btn-box-shadow:                 inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075) !default;
@@ -375,7 +375,7 @@ $btn-secondary-color:            $gray-dark !default;
 $btn-secondary-bg:               $white !default;
 $btn-secondary-border:           #ccc !default;
 
-$btn-info-color:                 $white !default;
+$btn-info-color:                 #111 !default;
 $btn-info-bg:                    $brand-info !default;
 $btn-info-border:                $btn-info-bg !default;
 

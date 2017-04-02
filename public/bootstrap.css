@@ -1749,7 +1749,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.25rem;
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out; }
@@ -1809,24 +1809,24 @@ fieldset[disabled] a.btn {
     border-color: #adadad; }
 
 .btn-info {
-  color: #fff;
-  background-color: #5bc0de;
-  border-color: #5bc0de; }
+  color: #111;
+  background-color: #febd69;
+  border-color: #febd69; }
   .btn-info:hover {
-    color: #fff;
-    background-color: #31b0d5;
-    border-color: #2aabd2; }
+    color: #111;
+    background-color: #fea736;
+    border-color: #fea22c; }
   .btn-info:focus, .btn-info.focus {
-    box-shadow: 0 0 0 2px rgba(91, 192, 222, 0.5); }
+    box-shadow: 0 0 0 2px rgba(254, 189, 105, 0.5); }
   .btn-info.disabled, .btn-info:disabled {
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
+    background-color: #febd69;
+    border-color: #febd69; }
   .btn-info:active, .btn-info.active,
   .show > .btn-info.dropdown-toggle {
-    color: #fff;
-    background-color: #31b0d5;
+    color: #111;
+    background-color: #fea736;
     background-image: none;
-    border-color: #2aabd2; }
+    border-color: #fea22c; }
 
 .btn-success {
   color: #fff;
@@ -1929,24 +1929,24 @@ fieldset[disabled] a.btn {
     border-color: #ccc; }
 
 .btn-outline-info {
-  color: #5bc0de;
+  color: #febd69;
   background-image: none;
   background-color: transparent;
-  border-color: #5bc0de; }
+  border-color: #febd69; }
   .btn-outline-info:hover {
     color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
+    background-color: #febd69;
+    border-color: #febd69; }
   .btn-outline-info:focus, .btn-outline-info.focus {
-    box-shadow: 0 0 0 2px rgba(91, 192, 222, 0.5); }
+    box-shadow: 0 0 0 2px rgba(254, 189, 105, 0.5); }
   .btn-outline-info.disabled, .btn-outline-info:disabled {
-    color: #5bc0de;
+    color: #febd69;
     background-color: transparent; }
   .btn-outline-info:active, .btn-outline-info.active,
   .show > .btn-outline-info.dropdown-toggle {
     color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
+    background-color: #febd69;
+    border-color: #febd69; }
 
 .btn-outline-success {
   color: #5cb85c;
@@ -2076,19 +2076,20 @@ tbody.collapse.show {
 .dropdown {
   position: relative; }
 
-.dropdown-toggle::after {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 0.3em;
-  vertical-align: middle;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent; }
-
-.dropdown-toggle:focus {
-  outline: 0; }
+.dropdown-toggle {
+  cursor: pointer; }
+  .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.3em;
+    vertical-align: middle;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-left: 0.3em solid transparent; }
+  .dropdown-toggle:focus {
+    outline: 0; }
 
 .dropup .dropdown-toggle::after {
   border-top: 0;
@@ -2245,8 +2246,8 @@ tbody.collapse.show {
   outline: 0; }
 
 .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem; }
+  padding-right: 0.1875rem;
+  padding-left: 0.1875rem; }
   .btn + .dropdown-toggle-split::after {
     margin-left: 0; }
 
@@ -2952,8 +2953,8 @@ tbody.collapse.show {
     background-color: transparent; }
 
 .card-info {
-  background-color: #5bc0de;
-  border-color: #5bc0de; }
+  background-color: #febd69;
+  border-color: #febd69; }
   .card-info .card-header,
   .card-info .card-footer {
     background-color: transparent; }
@@ -2982,7 +2983,7 @@ tbody.collapse.show {
 
 .card-outline-info {
   background-color: transparent;
-  border-color: #5bc0de; }
+  border-color: #febd69; }
 
 .card-outline-success {
   background-color: transparent;
@@ -3227,9 +3228,9 @@ a.badge:focus, a.badge:hover {
     background-color: #449d44; }
 
 .badge-info {
-  background-color: #5bc0de; }
+  background-color: #febd69; }
   .badge-info[href]:focus, .badge-info[href]:hover {
-    background-color: #31b0d5; }
+    background-color: #fea736; }
 
 .badge-warning {
   background-color: #f0ad4e; }
@@ -4031,10 +4032,10 @@ a.bg-success:focus, a.bg-success:hover {
   background-color: #449d44 !important; }
 
 .bg-info {
-  background-color: #5bc0de !important; }
+  background-color: #febd69 !important; }
 
 a.bg-info:focus, a.bg-info:hover {
-  background-color: #31b0d5 !important; }
+  background-color: #fea736 !important; }
 
 .bg-warning {
   background-color: #f0ad4e !important; }
@@ -5894,10 +5895,10 @@ a.text-success:focus, a.text-success:hover {
   color: #449d44 !important; }
 
 .text-info {
-  color: #5bc0de !important; }
+  color: #febd69 !important; }
 
 a.text-info:focus, a.text-info:hover {
-  color: #31b0d5 !important; }
+  color: #fea736 !important; }
 
 .text-warning {
   color: #f0ad4e !important; }
@@ -5987,22 +5988,25 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
-.green {
+.white {
   color: white;
-  background-color: #232f3e; }
+  font-size: 14px; }
 
-.prime {
-  color: #48a3c6; }
+.header-list-sc {
+  color: #ccc;
+  font-size: 13px; }
+
+.header-list-sc:hover {
+  text-decoration: underline;
+  color: #ccc; }
+
+.bold-text {
+  font-weight: bold; }
 
 .amazon-header-sprite {
   background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-2x_optimized._CB281044790_.png");
   background-position: -10px -51px;
   background-size: 350px; }
-
-.amazon-header-size {
-  width: 97px;
-  height: 29px;
-  display: inline-block; }
 
 .header-background-color {
   background-color: #232f3e; }
@@ -6013,7 +6017,16 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .io-font-adjust {
   font-size: 18px; }
 
+.amazon-header-size {
+  width: 97px;
+  height: 29px;
+  display: inline-block; }
+
 .main-input-size {
   width: 570px; }
+
+.nav-padding {
+  padding-top: .75rem;
+  padding-bottom: .75rem; }
 
 /*# sourceMappingURL=bootstrap.css.map */

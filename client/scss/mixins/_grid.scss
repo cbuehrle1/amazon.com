@@ -16,6 +16,20 @@
   }
 }
 
+@mixin make-amazon-container($gutters: $grid-gutter-widths) {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  @each $breakpoint in map-keys($gutters) {
+    @include media-breakpoint-up($breakpoint) {
+      $gutter: map-get($gutters, $breakpoint);
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
 
 // For each breakpoint, define the maximum width of the container in a media query
 @mixin make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {

@@ -6,6 +6,7 @@
 
 .dropdown-toggle {
   // Generate the caret automatically
+  cursor: pointer;
   &::after {
     display: inline-block;
     width: 0;

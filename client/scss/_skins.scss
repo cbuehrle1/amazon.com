@@ -1,21 +1,25 @@
 $main-color: #232f3e;
+$secondary-header-color: #ccc;
 
-.green{
+.white{
   color: white;
-  background-color: #232f3e;
+  font-size: 14px;
 }
-.prime{
-  color: #48a3c6;
+.header-list-sc{
+  color: $secondary-header-color;
+  font-size: 13px;
+}
+.header-list-sc:hover{
+  text-decoration: underline;
+  color: $secondary-header-color;
+}
+.bold-text{
+  font-weight: bold;
 }
 .amazon-header-sprite{
   background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-2x_optimized._CB281044790_.png');
   background-position: -10px -51px;
   background-size: 350px;
-}
-.amazon-header-size{
-  width: 97px;
-  height: 29px;
-  display: inline-block;
 }
 .header-background-color{
   background-color: $main-color;
@@ -25,7 +29,4 @@ $main-color: #232f3e;
 }
 .io-font-adjust{
   font-size: 18px;
-}
-.main-input-size{
-  width: 570px;
 }
