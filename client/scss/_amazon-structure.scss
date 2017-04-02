@@ -3,10 +3,31 @@
   height: 29px;
   display: inline-block;
 }
+.language-dims{
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  display: inline-block;
+}
+.language-text{
+  position: relative;
+  top: -7px;
+  left: 0;
+}
 .main-input-size{
   width: 570px;
 }
 .nav-padding{
   padding-top: .75rem;
   padding-bottom: .75rem;
+}
+.acct-greet{
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.carousel-item-height{
+  height: 300px;
 }
