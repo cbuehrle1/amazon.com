@@ -6,14 +6,14 @@
 .language-dims{
   width: 14px;
   height: 14px;
-  position: relative;
-  top: 10px;
-  left: 20px;
+  position: absolute;
+  top: 6px;
+  left: 2px;
   display: inline-block;
 }
 .language-text{
   position: relative;
-  top: -7px;
+  top: -15px;
   left: 0;
 }
 .main-input-size{
@@ -75,6 +75,11 @@
   top: 50%;
   transform: translateY(30%);
 }
+.vcenter-prime{
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+}
 .prime-logo-dims{
   width: 47px;
   height: 15px;
@@ -101,4 +106,28 @@
 }
 .amazon-show{
   height: 250px;
+}
+.img-cart{
+  width: 100px;
+}
+.max-width-400{
+  width: 500px !important;
+}
+.max-width-150{
+  width: 150px !important;
+}
+.position-arr{
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin: 0;
+  margin-top: -12px;
+  width: 15px;
+  height: 12px;
+}
+.footer-pos{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

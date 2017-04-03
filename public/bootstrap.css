@@ -6013,6 +6013,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .border-top {
   border-top: solid 1px #696969; }
 
+.lt-top {
+  border-top: solid 1px rgba(0, 0, 0, 0.1); }
+
 .h-list-ul:hover {
   text-decoration: underline;
   color: #ccc; }
@@ -6105,6 +6108,37 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .price-color-red {
   color: #b12704; }
 
+.center-text {
+  text-align: center; }
+
+.btn-add {
+  background-image: linear-gradient(to bottom, #f7dfa5, #f0c14b); }
+
+.btn-width-80 {
+  width: 80%; }
+
+.btn-shape {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  border-radius: 3px; }
+
+.alt-background {
+  background-color: #f3f3f3;
+  border: 1px #ddd solid; }
+
+.bg-white {
+  background-color: white; }
+
+.arrow-dn {
+  background-image: url("https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-8852bac7bd07ba976a42828c3641f6a896197566._V2_.png");
+  background-position: -5px -59px;
+  background-size: 400px 670px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top; }
+
+.right-text {
+  text-align: right; }
+
 .amazon-header-size {
   width: 97px;
   height: 29px;
@@ -6113,14 +6147,14 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .language-dims {
   width: 14px;
   height: 14px;
-  position: relative;
-  top: 10px;
-  left: 20px;
+  position: absolute;
+  top: 6px;
+  left: 2px;
   display: inline-block; }
 
 .language-text {
   position: relative;
-  top: -7px;
+  top: -15px;
   left: 0; }
 
 .main-input-size {
@@ -6178,6 +6212,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   top: 50%;
   transform: translateY(30%); }
 
+.vcenter-prime {
+  position: relative;
+  top: 50%;
+  transform: translateY(20%); }
+
 .prime-logo-dims {
   width: 47px;
   height: 15px; }
@@ -6204,5 +6243,29 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .amazon-show {
   height: 250px; }
+
+.img-cart {
+  width: 100px; }
+
+.max-width-400 {
+  width: 500px !important; }
+
+.max-width-150 {
+  width: 150px !important; }
+
+.position-arr {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin: 0;
+  margin-top: -12px;
+  width: 15px;
+  height: 12px; }
+
+.footer-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=bootstrap.css.map */

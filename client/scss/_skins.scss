@@ -26,6 +26,9 @@ $success: #008a00;
 .border-top{
   border-top: solid 1px #696969;
 }
+.lt-top{
+  border-top: solid 1px rgba(0, 0, 0, 0.1)
+}
 .h-list-ul:hover{
   text-decoration: underline;
   color: $secondary-header-color;
@@ -119,4 +122,35 @@ $success: #008a00;
 }
 .price-color-red{
   color: #b12704;
+}
+.center-text{
+  text-align: center;
+}
+.btn-add{
+  background-image: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+.btn-width-80{
+  width: 80%;
+}
+.btn-shape{
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+  border-radius: 3px;
+}
+.alt-background{
+  background-color: #f3f3f3;
+  border: 1px #ddd solid;
+}
+.bg-white{
+  background-color: white;
+}
+.arrow-dn{
+  background-image: url('https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-8852bac7bd07ba976a42828c3641f6a896197566._V2_.png');
+  background-position: -5px -59px;
+  background-size: 400px 670px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+}
+.right-text{
+  text-align: right;
 }
