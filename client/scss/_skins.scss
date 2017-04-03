@@ -1,4 +1,5 @@
 $main-color: #232f3e;
+$main-color-lt: #37475a;
 $secondary-header-color: #ccc;
 $prime-color: #48a3c6;
 
@@ -29,7 +30,7 @@ $prime-color: #48a3c6;
   background-position: -10px -51px;
   background-size: 350px;
 }
-.header-background-color{
+.main-color{
   background-color: $main-color;
 }
 .inline-form-custom{
@@ -46,4 +47,8 @@ $prime-color: #48a3c6;
   font-size: 26px;
 }
 .quick-look-skin{
+}
+.top-footer{
+  background-color: $main-color-lt;
+  text-align: center;
 }

@@ -777,4 +777,8 @@ html {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px; } }
+
 /*# sourceMappingURL=bootstrap-grid.css.map */

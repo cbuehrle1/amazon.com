@@ -1367,6 +1367,10 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px; } }
+
 .table {
   width: 100%;
   max-width: 100%;
@@ -6015,7 +6019,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   background-position: -10px -51px;
   background-size: 350px; }
 
-.header-background-color {
+.main-color {
   background-color: #232f3e; }
 
 .inline-form-custom {
@@ -6030,6 +6034,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .prime {
   background-color: #48a3c6;
   font-size: 26px; }
+
+.top-footer {
+  background-color: #37475a;
+  text-align: center; }
 
 .amazon-header-size {
   width: 97px;
@@ -6084,5 +6092,14 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .carousel-item a:hover button {
   opacity: 1; }
+
+.card-dims {
+  max-height: 200px;
+  height: 100%;
+  width: 442px; }
+
+.card-zon-img {
+  width: 440px;
+  height: 100%; }
 
 /*# sourceMappingURL=bootstrap.css.map */

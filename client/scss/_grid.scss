@@ -50,3 +50,9 @@
 @if $enable-grid-classes {
   @include make-grid-columns();
 }
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
