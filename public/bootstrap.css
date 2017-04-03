@@ -6055,6 +6055,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   border-bottom: 1px solid #ccc;
   box-shadow: 0 0 10px #ddd; }
 
+.row-btm {
+  border-bottom: 1px solid #ccc; }
+
 .font-13 {
   font-size: 13px; }
 
@@ -6095,6 +6098,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .page-color {
   background-color: #eee; }
+
+.amazon-thb-skin {
+  border: solid 1px black; }
+
+.price-color-red {
+  color: #b12704; }
 
 .amazon-header-size {
   width: 97px;
@@ -6164,6 +6173,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   top: 50%;
   transform: translateY(-50%); }
 
+.vcenter-d {
+  position: relative;
+  top: 50%;
+  transform: translateY(30%); }
+
 .prime-logo-dims {
   width: 47px;
   height: 15px; }
@@ -6183,5 +6197,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   width: 36px;
   height: 12px;
   vertical-align: baseline; }
+
+.amazon-thb {
+  height: 55px;
+  width: 45px; }
+
+.amazon-show {
+  height: 250px; }
 
 /*# sourceMappingURL=bootstrap.css.map */
