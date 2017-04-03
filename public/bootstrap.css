@@ -6027,6 +6027,17 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .cart-num {
   color: #F59433; }
 
+.prime {
+  background-color: #48a3c6;
+  font-size: 26px; }
+
+.img-position-prime {
+  position: relative;
+  top: -10px; }
+
+.sm-line-height {
+  line-height: normal; }
+
 .amazon-header-size {
   width: 97px;
   height: 29px;

@@ -1,5 +1,6 @@
 $main-color: #232f3e;
 $secondary-header-color: #ccc;
+$prime-color: #48a3c6;
 
 .white{
   color: white;
@@ -39,4 +40,15 @@ $secondary-header-color: #ccc;
 }
 .cart-num{
   color: #F59433
+}
+.prime{
+  background-color: $prime-color;
+  font-size: 26px;
+}
+.img-position-prime{
+  position: relative;
+  top: -10px;
+}
+.sm-line-height{
+  line-height: normal;
 }
