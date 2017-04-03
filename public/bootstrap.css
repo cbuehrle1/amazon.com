@@ -5995,6 +5995,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .white {
   color: white;
   font-size: 14px; }
+  .white a:hover {
+    text-decoration: underline;
+    color: white; }
 
 .language-sprite {
   background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/InternationalCustomerPreferencesNavDesktopAssets-icp_sprite-6b737a23dc2fdf9eef2fe592c2f05017215df7e7._V2_.png");
@@ -6006,6 +6009,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .h-border-r {
   border-right: solid 1px #696969; }
+
+.border-top {
+  border-top: solid 1px #696969; }
 
 .h-list-ul:hover {
   text-decoration: underline;
@@ -6038,6 +6044,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .top-footer {
   background-color: #37475a;
   text-align: center; }
+
+.no-list-style {
+  list-style-type: none; }
 
 .amazon-header-size {
   width: 97px;
