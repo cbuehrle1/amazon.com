@@ -11,6 +11,96 @@
     <link rel='stylesheet' href='bootstrap-reboot.css' />
   </head>
   <body>
+    <div class='container-fluid main-color container-min'>
+      <div class='row nav-padding'>
+        <div class='col-md-2'>
+          <a class="align-middle" href="https://www.amazon.com/">
+            <div class='amazon-header-sprite amazon-header-size'>
+            </div>
+          </a>
+        </div>
+        <div class-'col-md'>
+          <form class="form-inline d-inline-flex align-middle">
+            <div class="input-group">
+              <span class="dropdown input-group-addon inline-form-custom" id="basic-addon1">
+                <a class="dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  All
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </span>
+              <input type="text" class="form-control-sm main-input-size" placeholder="" aria-describedby="basic-addon1">
+              <button class="btn-sm btn-info my-2 my-sm-0" type="submit"><i class="material-icons io-font-adjust">&#xE8B6;</i></button>
+            </div>
+          </form>
+        </div>
+        <div class='col-md'>
+          <a class='nav-item align-middle'>
+            <img class='img-fluid' src='https://images-na.ssl-images-amazon.com/images/G/01/kindle/merch/2017/E-reader/Mar/Prime/kp_GW_DesktopSWM_prime-targeted_400x39._CB530668861_.jpg'>
+          </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-2 dropdown'>
+          <p class='dropdown-toggle bold-text white' id='navbarDropDownMenuLink1' data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">
+            Department
+          </p>
+          <div class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink1'>
+            <a class='dropdown-item' href='#'>Amazon Video</a>
+            <a class='dropdown-item' href='#'>Amazon Music</a>
+            <a class='dropdown-item' href='#'>Appstore for Android</a>
+            <a class='dropdown-item' href='#'>More Amazon Departments</a>
+          </div>
+        </div>
+        <div class='col-md-6 pl-0'>
+          <div class='dropdown d-inline-block mr-2'>
+            <p class='dropdown-toggle header-list-sc h-list-ul' id='navbarDropDownMenuLink1' data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">
+              Browsing History
+            </p>
+            <div class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink1'>
+              <a class='dropdown-item' href='#'>Amazon Video</a>
+              <a class='dropdown-item' href='#'>Amazon Music</a>
+              <a class='dropdown-item' href='#'>Appstore for Android</a>
+              <a class='dropdown-item' href='#'>More Amazon Departments</a>
+            </div>
+          </div>
+          <a class='header-list-sc h-list-ul mr-2' href='#'>Chad's Amazon.com</a>
+          <a class='header-list-sc h-list-ul mr-2' href='#'>Today's Deals</a>
+          <a class='header-list-sc h-list-ul mr-2' href='#'>Gift Cards & Registry</a>
+          <a class='header-list-sc h-list-ul mr-2' href='#'>Sell</a>
+          <a class='header-list-sc h-list-ul mr-2' href='#'>Help</a>
+        </div>
+        <div class='col'>
+          <div class='dropdown d-inline-block'>
+            <div class='dropdown-toggle header-list-sc h-border-r pr-2 pt-1 pb-1'>
+              <span class='language-dims language-sprite'></span>
+              <span class='language-text'>EN</span>
+            </div>
+          </div>
+          <div class='dropdown d-inline-block ml-1'>
+            <div class='dropdown-toggle header-list-sc pt-1'>
+              <span class='header-list-sc acct-greet'>Hello, Chad</span>
+              <span class='white'>Account & Lists</span>
+            </div>
+          </div>
+          <div class='d-inline-block ml-1'>
+            <a href='#' class='white'>Orders</a>
+          </div>
+          <div class='dropdown d-inline-block ml-1'>
+            <div class='dropdown-toggle white' id='navbarDropDownMenuLink4' data-toggle='dropdown' aria-haspopup='true' aria-expanded="false">
+              <a href='#' class='white'>Prime</a>
+            </div>
+          </div>
+          <div class='d-inline-block ml-2'>
+            <span class='cart-num'>0</span>
+            <span class="white" >Cart</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class='container-fluid'>
       <div class='row p-1 search-header'>
         <div class='col-9'>
@@ -88,7 +178,24 @@
               <ul class='no-list-style'>
                 <li><h6 class='side-nav-title'>Refine by</h6></li>
                 <li><p class='font-13 bold-text mb-0'>Amazon Fresh</p></li>
-                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='mb-0'></p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='fresh fresh-dims mb-0 ml-1 d-inline-block'></p></li>
+                <li><p class='font-13 bold-text mb-0'>Deivery Day</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>Get it Today</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>Get it Tomorrow</p></li>
+                <li><p class='font-13 bold-text mb-0'>Amazon Prime</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><div  class='d-inline-block prime-logo prime-logo-dims ml-1'></div></li>
+                <li><p class='font-13 bold-text mb-0'>Eligible for Free shipping</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>Free Shipping by Amazon</p></li>
+                <li><p class='font-13 bold-text mb-0'>Book Format</p></li>
+                <li><p class='font-13 mb-0'>Paperback</p></li>
+                <li><p class='font-13 mb-0'>Kindle Edition</p></li>
+                <li><p class='font-13 mb-0'>Hardcover</p></li>
+                <li><p class='font-13 mb-0'>Board Book</p></li>
+                <li><p class='font-13 bold-text mb-0'>Book Language</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>Engish</p></li>
+                <li><p class='font-13 bold-text mb-0'>Condition</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>New</p></li>
+                <li><img src='https://images-na.ssl-images-amazon.com/images/G/01/shopping_engine/nav2/buttons/checkbox_unselected_enabled._CB343354661_.png'><p class='font-13 mb-0 d-inline-block ml-1'>Used</p></li>
               </ul>
             </div>
           </div>
@@ -113,6 +220,247 @@
             </ul>
           </div>
         </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/41Z2swEmwaL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>CSS Secrets: Better Solutions to Everyday Web Design Problems</h6></a><p class='d-inline-block font-13 pl-3'>July 3, 2015</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Lea Verou</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/41Sjh8DNU-L._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML & CSS: Learn The Fundamentals In 7 days</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Michael Knapp</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class='row pt=2 pb=2'>
+          <div class='col'>
+            <img class='list-thumbnail d-inline-block' src='https://images-na.ssl-images-amazon.com/images/I/512aDoMfKVL._AC_US160_.jpg' >
+            <ul class='no-list-style d-inline-block p-0 list-align-top'>
+              <li class='small-line-height'><a class='d-inline-block'href=''><h6>HTML and CSS: Design and Build Websites</h6></a><p class='d-inline-block font-13 pl-3'>Nov 8, 2011</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 pr-1'>By</p><a href=''><p class='d-inline-block font-13'>Jon Duckett</p></a></li>
+              <li class='small-line-height'><a href=''><p class='d-inline-block font-13'>Paperback</p></a></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>26</span><sup>53</sup><span class='pl-1'>$39.99</span><div  class='d-inline-block prime-logo prime-logo-dims'></div></li>
+              <li class=''><p class='d-inline-block font-13 mb-0'>Get it by <span class='bold-text success'>TODAY, Apr 3</span></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>FREE Shipping on eligible orders</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>More Buying Choices</p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13'>$16.99 <a href=''>(66 used & new offers)</a></p></li>
+              <li class='small-line-height'><p class='d-inline-block font-13 mt-1'><a href=''>Kindle Edition</a></p></li>
+              <li class='small-line-height'><sup>$</sup><span class='large-currency'>18</span><sup>35</sup></li>
+              <li class='small-line-height mt-2'><div class='d-inline-block stars stars-dims mt-1'></div></li>
+            </ul>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center p-2 mb-3 page-color">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">20</a></li>
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+  </div>
+  <div class='container-fluid'>
+    <div class='row mt-4 p-3 top-footer'>
+      <div class='col'>
+        <p class='white m-auto'>Back to top</p>
+      </div>
+    </div>
+    <div class='row pt-4 pb-4 main-color'>
+      <div class='col-2 ml-5'>
+        <ul class='white no-list-style'>
+          <li class='bold-text pb-2'>Get to Know Us</li>
+          <li><a class='white' href=''>Careers</a></li>
+          <li><a class='white' href=''>About Amazon</a></li>
+          <li><a class='white' href=''>Investor Relations</a></li>
+          <li><a class='white' href=''>Amazon Devices</a></li>
+        </ul>
+      </div>
+      <div class='col-3'>
+        <ul class='white no-list-style list-font'>
+          <li class='bold-text pb-2 list-style'>Make Money with Us</li>
+          <li><a class='white' href=''>Sell on Amazon</a></li>
+          <li><a class='white' href=''>Sell Your Services on Amazon</a></li>
+          <li><a class='white' href=''>Sell on Amazon Business</a></li>
+          <li><a class='white' href=''>Sell Your Apps on Amazon</a></li>
+          <li><a class='white' href=''>Become an Affiliate</a></li>
+          <li><a class='white' href=''>Advertise Your Products</a></li>
+          <li><a class='white' href=''>Self-Publish with Us</a></li>
+          <li><a class='white' href=''>Become an Amazon Vendor</a></li>
+          <li><a class='white' href=''>See all</a></li>
+        </ul>
+      </div>
+      <div class='col-3'>
+        <ul class='white no-list-style'>
+          <li class='bold-text pb-2'>Amazon Payment Products</li>
+          <li><a class='white' href=''>Amazon Rewards Visa Signature Cards</a></li>
+          <li><a class='white' href=''>Amazon.com Store Card</a></li>
+          <li><a class='white' href=''>Amazon.com Corporate Credit Line</a></li>
+          <li><a class='white' href=''>Shop with Points</a></li>
+          <li><a class='white' href=''>Credit Card Marketplace</a></li>
+          <li><a class='white' href=''>Reload Your Balance</a></li>
+          <li><a class='white' href=''>Amazon Currency Converter</a></li>
+        </ul>
+      </div>
+      <div class='col-3'>
+        <ul class='white no-list-style'>
+          <li class='bold-text pb-2'>Let Us Help You</li>
+          <li><a class='white' href=''>Your Account</a></li>
+          <li><a class='white' href=''>Your Orders</a></li>
+          <li><a class='white' href=''>Shipping Rates & Policies</a></li>
+          <li><a class='white' href=''>Amazon Prime</a></li>
+          <li><a class='white' href=''>Returns & Replacements</a></li>
+          <li><a class='white' href=''>Manage Your Content and Devices</a></li>
+          <li><a class='white' href=''>Amazon Assistant</a></li>
+          <li><a class='white' href=''>Help</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class='row main-color pt-5 pb-5 border-top'>
+      <div class='col-4'>
+        <a class="align-middle" href="https://www.amazon.com/">
+          <div class='amazon-header-sprite amazon-header-size'>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
   </body>

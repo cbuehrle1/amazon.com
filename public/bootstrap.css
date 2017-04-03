@@ -6087,6 +6087,15 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .side-nav-title {
   color: #999; }
 
+.fresh {
+  background-image: url("http://g-ec2.images-amazon.com/images/G/01/omaha/images/yoda/badges/FInal_Fresh_Logo_2x._V303308372_.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 36px 12px; }
+
+.page-color {
+  background-color: #eee; }
+
 .amazon-header-size {
   width: 97px;
   height: 29px;
@@ -6169,5 +6178,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .search-nav {
   float: left;
   width: 250px; }
+
+.fresh-dims {
+  width: 36px;
+  height: 12px;
+  vertical-align: baseline; }
 
 /*# sourceMappingURL=bootstrap.css.map */
