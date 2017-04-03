@@ -6045,8 +6045,47 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   background-color: #37475a;
   text-align: center; }
 
+.form-right {
+  text-align: right !important; }
+
 .no-list-style {
   list-style-type: none; }
+
+.search-header {
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px #ddd; }
+
+.font-13 {
+  font-size: 13px; }
+
+.list-thumbnail {
+  height: 160px;
+  width: 160px; }
+
+.list-align-top {
+  vertical-align: top; }
+
+.small-line-height {
+  line-height: .2rem; }
+
+.large-currency {
+  font-size: 21px; }
+
+.prime-logo {
+  background-image: url("https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-8852bac7bd07ba976a42828c3641f6a896197566._V2_.png");
+  background-position: -205px -246px;
+  background-size: 400px 670px; }
+
+.success {
+  color: #008a00; }
+
+.stars {
+  background-image: url("https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x-8852bac7bd07ba976a42828c3641f6a896197566._V2_.png");
+  background-position: -5px -368px;
+  background-size: 400px 670px; }
+
+.side-nav-title {
+  color: #999; }
 
 .amazon-header-size {
   width: 97px;
@@ -6110,5 +6149,25 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .card-zon-img {
   width: 440px;
   height: 100%; }
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.prime-logo-dims {
+  width: 47px;
+  height: 15px; }
+
+.stars-dims {
+  width: 80px;
+  height: 18px; }
+
+.contain-comps {
+  overflow: hidden; }
+
+.search-nav {
+  float: left;
+  width: 250px; }
 
 /*# sourceMappingURL=bootstrap.css.map */
