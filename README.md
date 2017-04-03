@@ -1,12 +1,11 @@
 
+## Amazon Mock Site
 
-## Setup
+The paths:
 
-`$ npm install`
+index - /
+search results = /list.html
+detail page = /item.html
+cart = /cart.html
 
-
-## Running the Project
-
-```
-$ gulp
-```
+Given more time I would have really dug into the javascript to make sure all the widgets/drop downs were optimized. Also, would have fleshed out any popup menus and what not.
