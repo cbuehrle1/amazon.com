@@ -6031,13 +6031,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   background-color: #48a3c6;
   font-size: 26px; }
 
-.img-position-prime {
-  position: relative;
-  top: -10px; }
-
-.sm-line-height {
-  line-height: normal; }
-
 .amazon-header-size {
   width: 97px;
   height: 29px;
@@ -6070,5 +6063,26 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .carousel-item-height {
   height: 300px; }
+
+.img-position-prime {
+  position: absolute;
+  top: -17px; }
+
+.img-h-c {
+  max-height: 200px;
+  max-width: 270px; }
+
+.height-set-220 {
+  height: 220px; }
+
+.quick-look {
+  position: relative;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0; }
+
+.carousel-item a:hover button {
+  opacity: 1; }
 
 /*# sourceMappingURL=bootstrap.css.map */
